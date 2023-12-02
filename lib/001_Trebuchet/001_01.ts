@@ -34,7 +34,7 @@ const numbers_as_string: Record<string, number> = {
   nine: 9,
 };
 
-const input = fs.readFileSync("./inputs/001_input.txt", "utf8");
+const input = fs.readFileSync("../inputs/001_input.txt", "utf8");
 
 let lines = input.trim().split("\n");
 
